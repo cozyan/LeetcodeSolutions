@@ -80,4 +80,7 @@ Explaination:
 Python list sort space complexity is O(log(n)), since we compare each letter log, then it's O(mnlog(n)).
 Moreover, for each comparision, we need to temporarily store each letter log which also takes O(m) space.
 Intotal, it's O(m+mlog(n)) => O(mlog(n)) space.
+
+Some Info:
+Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort.
 """
