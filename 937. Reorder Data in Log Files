@@ -68,3 +68,12 @@ class Solution:
         # Calling
         let.sort(key=functools.cmp_to_key(compare))
         return let+dig
+        
+Time Complexity: O(mnlog(n))
+Explaination: 
+Python list sort() function uses Timsort algorithm which has time complexity of O(nlogn). 
+In our question, n means the total number of letter logs. We then consider the compare() function within the letter log,
+this will take up m time for each comparison. So in total it's mnlog(n).
+Space Complexity: O(mlog(n))
+Explaination:
+
