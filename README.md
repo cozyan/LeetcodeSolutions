@@ -7,6 +7,6 @@ Solutions after Practicing Leetcode
 Method1: Comparator (used <code>key=functools.cmp_to_key</code>)
 
 ### [336. [Hard]Palindrome Pairs.py](https://github.com/cozyan/LeetcodeSolutions/blob/main/Solution/336.%20%5BHard%5DPalindrome%20Pairs.py)
-Method1: Brutal (inefficient)
-Method2: Map/Dict
-Method3: Trie
+- Method1: Brutal (inefficient)
+- Method2: Map/Dict
+- Method3: Trie
