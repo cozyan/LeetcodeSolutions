@@ -22,8 +22,9 @@ Output: [[0,1],[1,0]]
 """
 """
 # Brutal Method
-## Time Complexity O(n^2*L), L is the average word length
-## Space Complexity = Auxiliary space + Space use by input values. Here is O(n^2*L)
+## Time Complexity O(n^2*m), m is the average word length
+## Space Complexity = Auxiliary space + Space use by input values. Here is O(n^2+m)=O(n^2) with m is average length of the word.
+## O(n^2) is becuase in the output when we have the worst case we need to store total n*n pairs. m applies when we store each word.
 ## The problem here is it's really time-consuming and inefficient.
 """
 class Solution:
@@ -75,6 +76,11 @@ Under this case we don't have to check the whole reversed word palindrome since 
 If we can find the reversed left substring, we then return the position [right_substr_index, word_index].
 Ex: for "sssll" we get right substr "ssll" and left one is "s", since "s" is palindromic, 
 we then find if reversed rightstr "llss" is in the map. The pair should be "llss" + "sssll".
+
+Time Complexity: O(n*m^2) n is number of total words, m is avg words length. 
+isPal takes linear time O(n), and we are getting the subtring of word so by checking substr is O(m^2) in checking
+each char of this word(i.e. a list of char).
+Space Complexity: O(n)
 """
    
 class Solution:
