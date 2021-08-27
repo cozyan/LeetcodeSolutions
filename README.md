@@ -1,7 +1,7 @@
 # LeetcodeSolutions
 Solutions after Practicing Leetcode
 
-## [Solved Questions
+## Solved Questions
 
 ### [22. [Medium]Generate Parentheses](https://github.com/cozyan/LeetcodeSolutions/blob/main/Solution/22.%20%5BMedium%5DGenerate%20Parentheses.py)
 - Method1: map + dp
