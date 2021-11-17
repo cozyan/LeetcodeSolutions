@@ -12,7 +12,7 @@ Example 2:
 Input: n = 1
 Output: ["()"]
 """
-
+    
 # Method 1: map + dp (dynamic programming)
 ## the idea is to add all the combinations for n into map/dictionary, 
 ## and based on the previous combinations and get current n solution since the subquestion for each n={2,3,4,5,...} is the same.
